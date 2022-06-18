@@ -1,0 +1,13 @@
+{
+  "app_name": "baopeng",
+  "short_name": "baopeng",
+  "description": "Demo app for baopeng",
+  "lang": "en",
+  "start_url": "/",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "dir": "ltr",
+  "display": "standalone",
+  "orientation": "portrait",
+  "prefer_related_applications": false
+}
