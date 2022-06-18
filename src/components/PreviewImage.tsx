@@ -1,12 +1,8 @@
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 
-import { ExternalLinkIcon } from '@chakra-ui/icons'
 import {
   Box,
   Button,
-  Flex,
-  HStack,
-//   Image,
   Img,
   Link,
   Modal,
@@ -17,10 +13,9 @@ import {
   ModalHeader,
   ModalOverlay,
   Text,
-  Tooltip,
   useBreakpointValue,
 } from '@chakra-ui/react'
-import { motion } from 'framer-motion'
+// import { motion } from 'framer-motion'
 import { Carousel } from 'react-responsive-carousel'
 
 export default function PreviewImage({ isOpen, onClose, post }) {

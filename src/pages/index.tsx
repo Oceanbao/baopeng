@@ -1,15 +1,12 @@
 import { promises as fs } from 'fs'
 import path from 'path'
 
-import { RepeatIcon } from '@chakra-ui/icons'
 import {
   Box,
-  Button,
   Container,
   Heading,
   Link,
   SimpleGrid,
-  Skeleton,
   Text,
   useDisclosure,
 } from '@chakra-ui/react'
@@ -102,7 +99,7 @@ export default function Home({ galleryData }) {
   )
 }
 
-export const getStaticProps: GetStaticProps = async (context) => {
+export const getStaticProps: GetStaticProps = async () => {
     const galleryDataFile = path.join(process.cwd(), 'public/paintingData.json')
     const galleryData = await fs.readFile(galleryDataFile, 'utf8')
 

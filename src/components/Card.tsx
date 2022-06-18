@@ -1,5 +1,4 @@
-import { ArrowUpIcon } from '@chakra-ui/icons'
-import { Box, Flex, Img, Link, Text, useColorModeValue } from '@chakra-ui/react'
+import { Box, Img, useColorModeValue } from '@chakra-ui/react'
 import { motion } from 'framer-motion'
 
 const MotionImg = motion(Img)

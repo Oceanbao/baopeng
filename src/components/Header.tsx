@@ -2,7 +2,6 @@ import { HamburgerIcon, MoonIcon } from '@chakra-ui/icons';
 import {
     Box,
     Button,
-    Center,
     Container,
     IconButton,
     Menu,
